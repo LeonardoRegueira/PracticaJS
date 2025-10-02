@@ -1,4 +1,4 @@
-let vendedor ={
+const vendedor ={
     nombre:'Carlos',
     apellido:'Rodriguez',
     empresa:'SauHumus SA',
@@ -18,9 +18,13 @@ console.log('el tipo de dato del vendedor es ', typeof vendedor)
 
 console.log(vendedor.vender())
 
+vendedor.apellido = 'Suarez'
+console.log(vendedor)
+
 vendedor.edad = 56
 
 console.log(vendedor)
 
-vendedor.apellido = 'Suarez'
-console.log(vendedor)
+
+// vendedor = 'Juana Dominguez' ¡Error! no se puede reasignar
+// console.log(vendedor)
