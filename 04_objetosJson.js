@@ -22,15 +22,15 @@ console.log(saludo)
 console.log("los String siempre va entre 'a' ")
 
 let numerosE ={
-    numero1: 1,
-    "numero dos": 2
+    'numero1': 1,
+    "numero_dos": 2
 }
 
 console.log(typeof numerosE)
 console.log(numerosE)
 
 console.log(numerosE.numero1)
-console.log(numerosE["numero dos"])
+console.log(numerosE["numero_dos"])
 
 let stringi_numerosE =JSON.stringify(numerosE)
 console.log(stringi_numerosE)
