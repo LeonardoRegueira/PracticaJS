@@ -1,6 +1,8 @@
 console.log("*************************************************************************")
 console.log("*************************************************************************")
+console.log("*************************************************************************")
 console.log("**************************** NUEVA EJECUCION ****************************")
+console.log("*************************************************************************")
 console.log("*************************************************************************")
 console.log("*************************************************************************")
 
@@ -53,6 +55,12 @@ function imprimirlet() {
     let MiLet2 = "Hola Mundo desde imprimirlet"
 
     console.log("Imprimendo MiLet2 dentro de una función, el valor de MiLet2 es", MiLet2)
+
+    if (MiLet2){
+        let MiLet3 ='Texto de MiLet3'
+        console.log(MiLet3)
+    }
+    //console.log("Imprimendo MiLet3 dentro de una función, el valor de MiLet3 es", MiLet3) ¡Error! variable fuera de alcance
 
 }
 
